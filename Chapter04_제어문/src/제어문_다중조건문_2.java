@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class 제어문_다중조건문_2 {
-
+ 
 	public static void main(String[] args) {
 		//국어, 영어, 수학의 총점/평균/학점
 		//A, B, C, D, F
