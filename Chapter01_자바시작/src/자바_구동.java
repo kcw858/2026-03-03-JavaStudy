@@ -16,7 +16,7 @@
  *  운영체제
  *    |  
  *  하드웨어
- *  
+ *   
  * */
 public class 자바_구동 {
 	public static void main(String[] args) {
