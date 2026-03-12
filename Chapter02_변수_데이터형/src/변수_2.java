@@ -1,6 +1,6 @@
 import java.util.Scanner; //입력값을 받는다
 public class 변수_2 {
-
+ 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*
