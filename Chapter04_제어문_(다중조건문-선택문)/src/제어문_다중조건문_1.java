@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class 제어문_다중조건문_1 {
-
+ 
 	public static void main(String[] args) {
 		// 12, 1, 2 => 겨울   3, 4, 5 => 봄  6, 7, 8 => 여름  9, 10 ,11 => 가을
 		Scanner scan = new Scanner(System.in);
