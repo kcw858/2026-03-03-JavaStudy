@@ -3,7 +3,7 @@
  *  {
  *  	실행문장;   //조건이 true일때
  *  }
- */
+ */ 
 import java.util.Random;
 public class 단일조건문_1 {
 
