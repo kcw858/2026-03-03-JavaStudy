@@ -112,6 +112,8 @@ public class 메소드_6 {
 				}
 			}
 		}
+		
+		
 		System.out.print("내림차순 정렬 후: ");
 		System.out.println(Arrays.toString(arr));
 	}
