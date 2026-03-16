@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class 제어문_반복문_1 {
-
+ 
 	public static void main(String[] args) {
 		// 사용자로부터 숫자를 받아서 구구단을 
 		
