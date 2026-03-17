@@ -8,6 +8,10 @@ import java.util.*;
  *   	종료
  *   2. 데이터 읽기
  *   
+ *   객체지향
+ *   ------ Actor
+ *   
+ *   // 클래스와 클래스 연결 => 메소드
  */
 public class 메소드_분리2 {
 	static void menu()
@@ -42,6 +46,34 @@ public class 메소드_분리2 {
 				for(int i = 0 ; i < title.length ; i++)
 				{
 					System.out.println((i+1)+"."+title[i]);
+				}
+			}
+			else if(m == 2)
+			{
+				String[] title = GenieMusic.getSinger();
+				for(int i = 0 ; i < title.length ; i++)
+				{
+					System.out.println((i+1)+"."+title[i]);
+				}
+			}
+			else if(m == 3)
+			{
+				String[] title = GenieMusic.getAlbum();
+				for(int i = 0 ; i < title.length ; i++)
+				{
+					System.out.println((i+1)+"."+title[i]);
+				}
+			}
+			else if(m == 4)
+			{
+				System.out.print("검색어: ");
+				String fd = scan.next();
+				String[] title = GenieMusic.getFind(fd);
+				System.out.println("검색결과 " + title.length+"건");
+				for(int i = 0; i < title.length ; i++)
+				{
+					System.out.println((i+1)+"."+title[i]);
+					//동영상은 youtube 키 필요
 				}
 			}
 		}
