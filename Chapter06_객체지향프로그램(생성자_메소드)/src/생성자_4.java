@@ -14,7 +14,6 @@
 
 class Member2
 {
-	//사용이 안되는 곳
 	// static {}, static메소드 안에서는 사용이불가능
 	// static 변수는 모든곳에서 사용이 가능
 	int mno;
