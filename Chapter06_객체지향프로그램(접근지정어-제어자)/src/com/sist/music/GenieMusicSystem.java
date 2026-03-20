@@ -1,9 +1,89 @@
 package com.sist.music;
 
+import java.util.Scanner;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-
+/*
+ * 	자바 코딩
+ * 		package
+ * 		import
+ * 		public class ClassName
+ * 		{
+ * 			----------
+ * 			변수설정
+ * 			 => 공통변수 ==>static
+ * 			 => 따로사용하는 변수 ==> instance
+ * 			---------
+ * 			생성자 / 초기화 블록
+ * 			 변수 = 초기화 = 프로그램에 처음 대입되는값
+ * 			  - 기본값 => 자동 int a;  => 0
+ * 			  - 명시적 초기화 => int page = 1;
+ * 			  - 클래스는 선언만 가능	
+ * 					파일 읽기. 크롤링 => 초기화 블록사용
+ * 					인스턴스 초기화 : { 인스턴스/ 초기화 둘 다 가능 }
+ * 					static 초기화: static{ static만 가능 } 
+ * 			 생성자
+ * 			 ** 초기화: static은 static블록을 활용 => Mybatis
+ * 					  인스턴스는 생성자에서 주로 사용
+ * 			 ** 변수에 대한 초기화는 많이 없다
+ * 			 	--------------------- 
+ * 				주로 생성자에서는 화면UI / 쿠키 / 환경설정(DB드라이버)설정 / SpringAI 모델명 등
+ * 			---------
+ * 			메소드
+ * 			 사용자가 데이터를 사용할 수 있게 기능 부여
+ * 			 => 모든 메소드는 public -> 다른 클래스와 연결해야하기 때문에
+ * 									----- 요청(매개변수) => 결과값(리턴값)
+ * 				  <-요청값
+ * 			 자바 ========  브라우저
+ * 				  결과값->
+ * 			----------
+ * 		}
+ *  1. 패키지 만드는 방법 : 보관
+ *  	=> 관련된 클래스 모음
+ *  	=> 패키지 = 폴더
+ *  	=> com(org).업체명.요약
+ *  					 -- 한글(x),키워드(x)
+ *  	=> 라이브러기 ex) java.util(사용이 많은 클래스 모음), java.io(입출력),java.net(네트워크 관련),java.awt(윈도우 관련)
+ *  				   javax.swing, javax.xml	(jdk1.2)
+ * 					   jakarata   (jdk17버전)
+ * 		=> 찾기가 편리하다 => 유지보수 용이
+ *  2. 패키지에 있는 클래스 읽기 
+ *  	=> 다른 패키지에 있는 클래스는 인식을 못한다
+ *  	=> import 패키지.* : 패키지에 있는 모든 클래스
+ *  		-패키지에 있는 클래스를 여러개 사용할때 
+ *  	=> import 패키지.클래스명 : 지정된 클래스 1개를 가져온다 (권장 사항)
+ *  3. 접근지정어
+ *  	--------------------------------------------------
+ *  	private : 데이터 은닉화
+ *  			=> 변수(노출하면 안되는 데이터가 있는 경우)
+ *  			=> 자신의 클래스에서만 사용이 가능
+ *  			=> 제한허용 -> getter/setter : 캡슐화
+ *  	--------------------------------------------------
+ *  	default : 같은 패키지까지 접근
+ *  	--------------------------------------------------
+ *  	protected : 같은 패키지까지 접근, 상속받는 경우
+ *  							    ---------다른패키지에 접근가능
+ *  				사용빈도가 거의 없다
+ *  	--------------------------------------------------
+ *  	public : 모든 클래스에 접근이 가능
+ *  	--------------------------------------------------
+ *  
+ *  	1) 인스턴스 변수 : 대부분 private 
+ *  		=> 데이터 값을 노출 x
+ *  		=> 웹: POST 방식
+ *  	2) 클래스 : public / default (거의 public)
+ *  	3) 메소드 : 가급적이면 public -> 다른 클래스와 연결
+ *  	4) 생성자 : 주로 public -> 다른 클래스와 연결
+ *  4. 제어어
+ *  	static : 공통의..
+ *  	final : 마지막..
+ *  	abstract : 추상적인 => 메소드가 선언만 되어있다.
+ *  	--------
+ *  		ex) 윈도우: 버튼/텍스트
+ *  		=> 추상클래스 / ***인터페이스(스프링)
+ */
 //사용자 요청 => 기능 => 메소드
 public class GenieMusicSystem {
 	//공개 = 공유
@@ -22,16 +102,23 @@ public class GenieMusicSystem {
 			Elements etc = doc.select("table.list-wrap span.rank");
 			for(int i = 0 ; i < title.size() ; i++)
 			{
-				System.out.println(i+1);
-				System.out.println(title.get(i).text());
-				System.out.println(singer.get(i).text());
-				System.out.println(album.get(i).text());
+				Music m = new Music();
+				m.setNo(i+1);
+				m.setTitle(title.get(i).text());
+				m.setSinger(singer.get(i).text());
+				m.setAlbum(album.get(i).text());
+				
+				//System.out.println(i+1);
+				//System.out.println(title.get(i).text());
+				//System.out.println(singer.get(i).text());
+				//System.out.println(album.get(i).text());
 				//System.out.println(etc.get(i).text());
 				String temp = etc.get(i).text();
 				String state="";
 				String id = "";
 				if(temp.equals("유지"))
 				{
+					
 					state = "유지";
 					id="0";
 				}else
@@ -39,17 +126,91 @@ public class GenieMusicSystem {
 					state = temp.replaceAll("[^가-힣]", ""); //한글제외
 					id = temp.replaceAll("[^0-9]", ""); //숫자제외
 				}
-				System.out.println("상태: " + state);
-				System.out.println("등폭: " + id);
-				System.out.println("=====================");
+				m.setState(state);
+				m.setIdcrement(Integer.parseInt(id));
+				music[i] = m;
+				//System.out.println("상태: " + state);
+				//System.out.println("등폭: " + id);
+				//System.out.println("=====================");
 			}
 			
 		} catch (Exception ex) {}
 	}
-	
+
 	//기능 메소드
+	//0.메뉴
+	public int menu()
+	{
+		System.out.println("==========메뉴==========");
+		System.out.println("1. 뮤직 목록");
+		System.out.println("2. 상세보기");
+		System.out.println("3. 곡명 찾기");
+		System.out.println("4. 가수 찾기");
+		System.out.println("5. 종료");
+		System.out.println("======================");
+		Scanner scan = new Scanner(System.in);
+		System.out.print("메뉴 선택: ");
+		int m = scan.nextInt();
+		return m;
+	}
 	//1.목록 출력
+	public void musicList()
+	{
+		for(Music m : music)
+		{
+			System.out.println(m.getNo()+"." + m.getTitle());
+		}
+	}
 	//2.상세보기
+	public void musicDetail(int no)
+	{
+		for(Music m : music)
+		{
+			if(m.getNo() == no)
+			{
+				System.out.println("순위: " + m.getNo());
+				System.out.println("곡명: " + m.getTitle());
+				System.out.println("가수명: " + m.getSinger());
+				System.out.println("앨범: " + m.getAlbum());
+				System.out.println("상태: " + m.getState());
+				String s = m.getState();
+				if(s.equals("유지"))
+				{
+					System.out.println("등폭:-");
+				}
+				else if(s.equals("상승"))
+				{
+					System.out.println("등폭:▲");
+				}
+				else if(s.equals("하강"))
+				{
+					System.out.println("하강:▼");
+				}
+				break;
+			}
+			
+		}
+	}
 	//3.검색 => 가수,곡명
-	//4.동영상
+	public void titleFind(String fd) 
+	{
+		for(Music m : music)
+		{
+			if(m.getTitle().contains(fd))
+			{
+				System.out.println(m.getNo() + "." + m.getTitle());
+			}
+		}
+	}
+	
+	public void singerFind(String singer) 
+	{
+		for(Music m : music)
+		{
+			if(m.getSinger().contains(singer))
+			{
+				System.out.println(m.getNo()+ "."+m.getTitle()+ " " + m.getSinger());
+			}
+		}
+	}
 }
