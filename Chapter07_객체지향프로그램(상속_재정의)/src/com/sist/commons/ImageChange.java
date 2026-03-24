@@ -9,7 +9,7 @@ import javax.swing.*;
  *  	=> 배열
  *  	----------- 데이터형
  *  
- *  2. class
+ *  2. class 
  *  	= 데이터형의 사용: 필요한 변수를 모아서 저장
  *  		~VO (Spring) , ~DTO (MyBatis), ~Bean (JSP) , Entity (JPA)
  *  	 캡슐화 : private + getter/setter
