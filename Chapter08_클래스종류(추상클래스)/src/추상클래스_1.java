@@ -11,7 +11,7 @@
  *   		-> has-a: 포함
  *   		class A
  *   		class B ==> 크기 확인 불가능
- *   		
+ *   		 
  *   		class A
  *   		class B extends A ==> A > B
  *   
