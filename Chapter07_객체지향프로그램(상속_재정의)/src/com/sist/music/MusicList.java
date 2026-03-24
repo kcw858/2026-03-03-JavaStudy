@@ -33,6 +33,7 @@ public class MusicList  extends JPanel{
 		Object[][] row = new Object[0][5];
 		model = new DefaultTableModel(row,col);
 		table = new JTable(model);
+		table.getTableHeader().setReorderingAllowed(false);
 		table.setRowHeight(40);
 		JScrollPane js= new JScrollPane(table);
 		js.setBounds(10, 120, 980, 600);
