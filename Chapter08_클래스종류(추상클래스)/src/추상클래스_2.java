@@ -76,7 +76,7 @@ class 삼각형 extends 도형
 		System.out.println("삼각형을 그린다");
 	}
 	
-}
+} 
 
 class 원 extends 도형
 {
