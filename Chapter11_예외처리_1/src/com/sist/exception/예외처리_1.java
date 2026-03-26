@@ -27,7 +27,7 @@ import java.util.Scanner;
  *  
  *  				Object
  *  				  |
- *  			   Throwable : 에외처리의 최상위
+ *  			   Throwable : 에외처리의 최상위, 웹사이트에서 많이 사용
  *  				  |
  *  		-------------------
  *  		|				  |
@@ -51,7 +51,73 @@ import java.util.Scanner;
  *  	  -SQLException
  *  	  ----------------------------무조건 예외처리
  *  	  ----------------------------CheckException
- */
+ *  
+ *  
+ *  	UnCheckException : 선택조건
+ *  		   |
+ *  	RuntimeException
+ *  	----------------
+ *  			|
+ *  	ArrayIndexOutOfBoundsException : 배열범위 초과
+ *  	NullpointException: 객체 => null인경우
+ *  	ClassCastException: 형변환
+ *  	NumberFormatException: 숫자 형변환이 안되는 경우
+ *  	ArithmaticException: 0으로 나누는 경우
+ *  	---------------------------------------------- 1개만 처리
+ *  	
+ *  	2. 예외처리 방법
+ *  	 1) 직접 처리 => 에러 복구
+ *  		try-catch-finally : 가장 많이 사용
+ *  	 2) 에러 떠맡기기: 에러 회피
+ *  		throws
+ *  		선언 => 메소드 호출시에 처리해서 사용
+ *  		--------------------------
+ *  		소스가 완성이 된 상태 => throws
+ *  	 3) 임의 발생: 테스트 (견고한 프로그램)
+ *  		throw 
+ *  	 4) 사용자 정의 예외처리
+ *  		class My extends Exception
+ *  		{
+ *  		}
+ *  		=> throw를 이용해서 호출
+ *  	-----------------------------------------
+ *  	= 직접처리
+ *  		try
+ *  		{
+ *  			// 정상으로 수행하는 문장
+ *  			// 일반 => 처리문장
+ *  			// => 예상: 에러 발생에 대한
+ *  			
+ *  			=>ex) 사용자로부터 문자열 정수를 받아서
+ *  						   -------- NumberFormatException
+ *  				  배열에 저장
+ *  				  ------- ArrayIndexOutOfBoundsException
+ *  				  나누기한 값은 출력
+ *  				  ----------- ArithmaticException
+ *  		}catch(NumberFormatException)
+ *  		{
+ *  			정수변환오류 =>
+ *  		}
+ *  		catch(ArrayIndexOutOfBoundsException)
+ *  		{
+ *  			배열의 범위 초과 =>
+ *  		}
+ *  		catch(ArithmaticException)
+ *  		{
+ *  			0으로 나눈경우 =>
+ *  		}
+ *  		catch(Exception) 
+ *  		{
+ *  			기타(알 수 없는 예외가 있는 경우) =>
+ *  		}
+ *  		-------------catch절은 여러개 쓸 수 있지만 상위클래스가 항상 밑에 있는다
+ *  		finally
+ *  		{
+ *  			에러가 있든 없든 무조건 수행
+ *  			닫기 (파일 닫기, DB 닫기, 서버 닫기)
+ *  				---------------
+ *  		}
+ */	
 
 class MyException
 {
@@ -79,26 +145,37 @@ public class 예외처리_1 {
 
 	public static void main(String[] args) {
 
-		try 
-		{
-			Scanner scan = new Scanner(System.in);
-			System.out.print("입력:aaa,bbb,ccc ");
-			String m = scan.next();
-			Class className = Class.forName("com.sist.exception.MyException");
-			Object obj = className.getDeclaredConstructor().newInstance();
-			
-			Method[] methods = className.getDeclaredMethods();
-			
-			//메소드 찾기
-			for(Method mm : methods)
-			{
-				if(mm.getName().equals(m))
-				{
-					mm.invoke(obj, null);
-				}
-			}
+//		try 
+//		{
+//			Scanner scan = new Scanner(System.in);
+//			System.out.print("입력:aaa,bbb,ccc ");
+//			String m = scan.next();
+//			Class className = Class.forName("com.sist.exception.MyException");
+//			Object obj = className.getDeclaredConstructor().newInstance();
+//			
+//			Method[] methods = className.getDeclaredMethods();
+//			
+//			//메소드 찾기
+//			for(Method mm : methods)
+//			{
+//				if(mm.getName().equals(m))
+//				{
+//					mm.invoke(obj, null);
+//				}
+//			}
+//		
+//		} catch (Exception ex) {}
 		
-		} catch (Exception ex) {}
+		try {
+			Integer.parseInt("10 ");
+		} catch (ArithmeticException e) //0 으로 나누는 에러만 처리하기때문에 처리불가
+		{
+			System.out.println(e.getMessage());
+		}
+		catch (RuntimeException e) 
+		{
+			System.out.println(e.getMessage());
+		}
+		System.out.println("End");
 	}
-
 }
