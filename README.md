@@ -1,4 +1,5 @@
 # 2026-03-03-JavaStudy
+## Chapter01
 + => 2026-03-03
   + Chpater01_자바시작
     - 자바 구동과 시작
@@ -114,4 +115,24 @@
 + => 2026-03-26
   + Chapter11_예외처리_1
     - 인터페이스 응용- 게임 만들기 
-    - 예외처리 정리 
+    - 예외처리 정리
++ => 2026-03-27
+  + Chapter11_에외처리(간접처리)
+    - try-with-resourc
+    - 멀티 catch
+    - 에러메세지
+    - checkedException / UnCheckedException
+    - throws / throw
+    - 사용자 정의 예외처리
+  + Chapter11_예외처리(응용)
+    - 파일을 읽어 맛집 검색 프로그램 구현
++ => 2026-03-30
+  + Chapter12_라이브러리(java.lang)
+    - java.lang 라이브러리 클래스 사용
+    - JFrame을 이용해 윈도우 화면 구현
++ => 2026-03-31
+  + Chapter12_라이브러리(java.lang)_1
+    - String / StringBuffer / StringBuilder 차이점 및 사용법 
+    - Wrapper / Math / System 응용
+   + Chapter12_라이브러리(java.lang)_2
+    - 정규표현식 사용법 
