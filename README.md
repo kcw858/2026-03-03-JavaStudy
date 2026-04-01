@@ -1,41 +1,41 @@
 # 2026-03-03-JavaStudy
-+ => 2026-03-03
+## 2026-03-03
   + Chpater01_자바시작
     - 자바 구동과 시작
     - 글자 출력해보기
   + Chapter02_변수_데이터형
     - 변수선언과 데이터형
     - 데이터형의 범위와 연산처리
-+ => 2026-03-04
+## 2026-03-04
   + Chapter03_연산자
     - 단항,이항,삼항 연산자 연습
     - 연산자의 종류와 형변환
-+ => 2026-03-05
-  + Chapter04_제어문
+## 2026-03-05
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C_%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg" width="15" height="15"/> Chapter04_제어문
     - 제어문의 종류
     - 선택문,선택조건문,단일조건문,다중조건문
-+ => 2026-03-09
+## 2026-03-09
   + Chapter04_제어문_(다중조건문-선택문)
     - if-else문
     - switch-case문
     - switch-case 람다식
   + Chapter04_제어문_(다중조건문-선택문)
     - break, continue 반복제어문
-+ => 2026-03-10
-  + Chapter04_제어문_반복문(while-do-while)
+## 2026-03-10
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C_%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg" width="15" height="15"/> Chapter04_제어문_반복문(while-do-while)
     - while문과 do-while문 
   + Chapter04_제어문_반복문
     - 제어문과 반복문 문제풀이
-+ => 2026-03-11
+## 2026-03-11
   + Chapter04_제어문_중첩반복문
     - 이중 for문
     - 별찍기와 구구
-+ => 2026-03-12
-  + Chapter05_데이터관리(배열)
+## 2026-03-12
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C_%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg" width="15" height="15"/> Chapter05_데이터관리(배열)
     - 배열의 정의와 필요성
     - 배열 선언, 초기화, 복사
     - 달력 만들기
-+ => 2026-03-13
+## 2026-03-13
   + Chapter05_데이터관리(배열)_1
     - 선택정렬
     - 빈도수 구하기
@@ -45,14 +45,14 @@
     - 달력만들기
     - 파일 데이터 읽기
     - 배열 정리
-+ => 2026-03-16
-  + Chapter05_명령문관리(메소드)
+## 2026-03-16
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C_%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg" width="15" height="15"/> Chapter05_명령문관리(메소드)
     - 메소드 선언위치
     - 메소드 사용목적, 종류, 구성요소, 유형, 형식
   + Chapter05_명령문관리(메소드)_1
     - 메소드 재사용
     - 메소드 정리
-+ => 2026-03-17
+## 2026-03-17
   + Chapter05_명령문관리(메소드)_2
     - 메소드의 이해
     - String클래스 이해
@@ -60,7 +60,7 @@
   + Chapter05_문자열배열
     - 문자열 배열 사용
     - 메소드 분리
-+ => 2026-03-18
+## 2026-03-18
   + Chapter06_객체지향프로그램(개념-변수종류)
     - 객체지향프로그램 개념
     - 멤버변수 설정
@@ -70,8 +70,8 @@
     - 영화 파일을 읽어 활용
     - 클래스 구조
     - 사용자 정의 클래스
-+ => 2026-03-19
-  + Chapter06_객체지향프로그램(메소드)
+## 2026-03-19
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C_%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg" width="15" height="15"/> Chapter06_객체지향프로그램(메소드)
     - 메소드 역할
     - 메소드 오버로딩
     - Call by value / Call by reference
@@ -81,10 +81,10 @@
     - 생성자의 정의, 선언
     - 생성자 오버로딩
     - 생성자 호출 
-+ => 2026-03-20
+## 2026-03-20
   + Chapter06_객체지향프로그램(접근지정어-제어자)
     - 접근지정어에 따른 접근범위
-+ => 2026-03-23
+## 2026-03-23
   + Chapter07_객체지향프로그램(재사용)
     - 객체지향 설계
     - 객체지향의 4대특성
@@ -92,16 +92,16 @@
   + Chapter07_객체지향프로그램(상속_재정의)
     - 상속받기, 상속의 특징
     - 오버라이딩
-+ => 2026-03-24
-  + Chapter07_객체지향프로그램(다형성)
+## 2026-03-24
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C_%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg" width="15" height="15"/> Chapter07_객체지향프로그램(다형성)
     - 다형성
     - 오버로딩과 오버라이딩의 특징 및 비교
-  + Chapter08_클래스종류(추상클래스)
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C_%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg" width="15" height="15"/> Chapter08_클래스종류(추상클래스)
     - 객체의 형변환
     - 추상클래스 형식
     - -추상클래스 구성요소 및 특징
-+ => 2026-03-25
-  + Chapter08_인터페이스
+## 2026-03-25
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C_%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg" width="15" height="15"/> Chapter08_인터페이스
     - 인터페이스 기능
     - 인터페이스 사용이유
     - 인터페이스 / 클래스 비교
@@ -111,7 +111,27 @@
     - 예외처리의 종류
     - 예외처리의 상속 과정
     - try-catch 사용 
-+ => 2026-03-26
+## 2026-03-26
   + Chapter11_예외처리_1
     - 인터페이스 응용- 게임 만들기 
-    - 예외처리 정리 
+    - 예외처리 정리
+## 2026-03-27
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C_%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg" width="15" height="15"/> Chapter11_에외처리(간접처리)
+    - try-with-resourc
+    - 멀티 catch
+    - 에러메세지
+    - checkedException / UnCheckedException
+    - throws / throw
+    - 사용자 정의 예외처리
+  + Chapter11_예외처리(응용)
+    - 파일을 읽어 맛집 검색 프로그램 구현
+## 2026-03-30
+  + Chapter12_라이브러리(java.lang)
+    - java.lang 라이브러리 클래스 사용
+    - JFrame을 이용해 윈도우 화면 구현
+## 2026-03-31
+  + Chapter12_라이브러리(java.lang)_1
+    - String / StringBuffer / StringBuilder 차이점 및 사용법 
+    - Wrapper / Math / System 응용
+   + Chapter12_라이브러리(java.lang)_2
+    - 정규표현식 사용법 
