@@ -145,4 +145,14 @@
     - Field / Method / Constructor
     - 어노테이션
     - 구문 / 저장기간 / 배치
-    - TYPE / METHOD / CONSTRUCTOR / FIELD 
+    - TYPE / METHOD / CONSTRUCTOR / FIELD
+## 2026-04-02
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C.jpg" width="15" height="15"/> Chapter13_15_제네릭_컬렉션(List)
+    - Collection의 정의와 종류
+    - List,Set,Map
+    - List계열 사용법
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C.jpg" width="15" height="15"/> Chapter13_15_컬렉션프레임워크(List)
+    - ArrayList, LinkedList, Vector의 함수 사용법
+## 2026-04-03
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C.jpg" width="15" height="15"/> Chapter13_15_제네릭_컬렉션(List)
+    - Set, Map의 특징과 함수 사용법
