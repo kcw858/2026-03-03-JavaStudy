@@ -156,3 +156,15 @@
 ## 2026-04-03
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C.jpg" width="15" height="15"/> Chapter13_15_제네릭_컬렉션(List)
     - Set, Map의 특징과 함수 사용법
+## 2026-04-03
++ Chapter16_람다
+    - Collecton의 Iterator / ListIterator
+    - 람다식의 사용법과 장점
++ <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C.jpg" width="15" height="15"/> Chapter17_람다스트림
+    - 람다를 사용하는 목적과 구조 
+    - 람다 사용자 정의 및 조건
+    - 람다스트림 사용법
+    - 스트림의 연산 함수
+    - 중간연산 filter() / map() / sorted()
+    - 최종연산 forEach / collect / count
+    - 파일을 읽어 스트림으로 출력 
