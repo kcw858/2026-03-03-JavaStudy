@@ -153,10 +153,10 @@
     - List계열 사용법
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C.jpg" width="15" height="15"/> Chapter13_15_컬렉션프레임워크(List)
     - ArrayList, LinkedList, Vector의 함수 사용법
-## 2026-04-03
+## 2026-04-06
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C.jpg" width="15" height="15"/> Chapter13_15_제네릭_컬렉션(List)
     - Set, Map의 특징과 함수 사용법
-## 2026-04-03
+## 2026-04-06
 + Chapter16_람다
     - Collecton의 Iterator / ListIterator
     - 람다식의 사용법과 장점
