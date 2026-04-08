@@ -167,4 +167,24 @@
     - 스트림의 연산 함수
     - 중간연산 filter() / map() / sorted()
     - 최종연산 forEach / collect / count
-    - 파일을 읽어 스트림으로 출력 
+    - 파일을 읽어 스트림으로 출력
+## 2026-04-07
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C.jpg" width="15" height="15"/> Chapter18_입출력(IO)_1
+    - 파일을 읽어 VO,DAO,SEVICE,USER로 나눠 스트림으로 프로그램 만들어보기
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C.jpg" width="15" height="15"/> Chapter18_입출력(IO)_2
+    - 파일 입/출력은 CheckedException이기 때문에 반드시 예외처리 필요
+    - new File("c:\\javaDev") -> dir
+    - new File("c:\\javaDev\\a.jpg") -> 파일
+    - 경로명: getParent()
+    - 파일 크기: length()    => long형
+    - 수정일: lastModified  => long형
+    - 숨김 파일: isHidden()  => boolean형
+    - 읽기 전용: canRead()   => boolean형
+    - 쓰기 전용: canWrite()  => boolean형
+    - 파일 / 디렉토리: isFile / isDirectory => boolean형
+    -	폴더에 있는 모든 파일: File[] listFiles()
+    -	폴더 생성: mkdir()
+    -	mkdirs() -> 폴더안에 폴더생성
+    -	파일 생성: createNewFile()
+    -	파일 삭제: delete()
+    -	파일 존재 여부: exists()
