@@ -11,7 +11,7 @@
     - 단항,이항,삼항 연산자 연습
     - 연산자의 종류와 형변환
 ## 2026-03-05
-  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C.jpg" width="15" height="15"/> Chapter04_제어문
+  + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.jpg" width="15" height="15"/> Chapter04_제어문
     - 제어문의 종류
     - 선택문,선택조건문,단일조건문,다중조건문
 ## 2026-03-09
