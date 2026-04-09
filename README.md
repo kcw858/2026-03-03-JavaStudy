@@ -1,8 +1,10 @@
 # 이것이 자바다 3판 study
 ## 2026-03-03
-  + Chpater01_자바시작
+  <details>
+  <summary>+ Chpater01_자바시작</summary>
     - 자바 구동과 시작
     - 글자 출력해보기
+  </details>
   + Chapter02_변수_데이터형
     - 변수선언과 데이터형
     - 데이터형의 범위와 연산처리
@@ -189,16 +191,16 @@
     -	파일 삭제: delete()
     -	파일 존재 여부: exists()
 ## 2026-04-08
-  +  Chapter18_입출력(Buffered)
+  + Chapter18_입출력(Buffered)
     - FileInputStream / FileOutputStream => 1byte
     - FileReader / FileWriter => 2byte
-    - ObjectInputStream / ObjectOutputStream => 객체 단위 저장 
+    - ObjectInputStream / ObjectOutputStream => 객체 단위 저장
 ## 2026-04-09
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter18_입출력(Files)
     - Files 라이브러리 사용법 
     - Files를 이용해서 파일 생성, 쓰기, 읽기, 복사 , 이동, 삭제 구현
     - Path : 파일과 디렉토리의 위치를 나타내는 객체
-  +  Chapter19_네트워크(내부클래스)
+  + Chapter19_네트워크(내부클래스)
     - 내부 클래스는 대부분 윈도우, 빅데이터, SpringAI에서 사용
     - 내부 클래스 / static 클래스 / 익명의 클래스 / 지역 클래스 형식 및 구현
   + Chapter19_네트워크(쓰레드)
