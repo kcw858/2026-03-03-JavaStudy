@@ -188,3 +188,28 @@
     -	파일 생성: createNewFile()
     -	파일 삭제: delete()
     -	파일 존재 여부: exists()
+## 2026-04-08
+  +  Chapter18_입출력(Buffered)
+    - FileInputStream / FileOutputStream => 1byte
+    - FileReader / FileWriter => 2byte
+    - ObjectInputStream / ObjectOutputStream => 객체 단위 저장
+## 2026-04-09
+  +  <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/%EC%A4%91%EC%9A%94%ED%91%9C%EC%8B%9C.jpg" width="15" height="15"/>Chapter18_입출력(Files)
+    - Files 라이브러리 사용법 
+    - Files를 이용해서 파일 생성, 쓰기, 읽기, 복사 , 이동, 삭제 구현
+    - Path : 파일과 디렉토리의 위치를 나타내는 객체
+  +  Chapter19_네트워크(내부클래스)
+    - 내부 클래스는 대부분 윈도우, 빅데이터, SpringAI에서 사용
+    - 내부 클래스 / static 클래스 / 익명의 클래스 / 지역 클래스 형식 및 구현
+  + Chapter19_네트워크(쓰레드)
+    - 쓰레드: 한개의 프로세스 안에서 여러개의 기능을 동시에 수행
+    - Thread 클래스 상속: 낭비가 심해 사용 자제
+    - Runnable 구현 ===> 표준화
+    - ExecutorService -> 쓰레드 풀(관리) ===> 현업에서는 가장 많이 사용
+    - Thread 생명주기: new ======== Runnable ======== Running
+    - Thread 구현
+  + Chapter19_네트워크(URL)
+    - URL / URI
+    - URI uri = new URI("주소"); URL url = uri.toURL(); -> 검증된 결과를 불러오는 최신 라이브러리
+    - URL로 사이트 연결 구현 
+    
