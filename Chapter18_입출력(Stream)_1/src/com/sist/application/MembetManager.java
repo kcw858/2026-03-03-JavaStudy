@@ -68,7 +68,6 @@ public class MembetManager {
 		FileWriter fw = null;
 		try
 		{
-			System.out.println("회원 탈퇴 완료");
 			List<MemberVO> list = read();
 			list.remove(no-1);
 			String data = "";
@@ -99,7 +98,7 @@ public class MembetManager {
 		try
 		{
 			List<MemberVO> list = read();
-			list.set(no-1, mvo);
+			list.set(no-1, mvo); //같은 번호를 받아 덮어쓰기로 수정
 			String data = "";
 			for(MemberVO vo : list)
 			{

@@ -36,7 +36,7 @@ public class UserMain {
 				}
 				case 3 -> 
 				{
-					System.out.println("수정할 회원 번호:");
+					System.out.print("수정할 회원 번호:");
 					int no = scan.nextInt();
 					System.out.print("이름 입력: ");
 					String name = scan.next();

@@ -187,7 +187,8 @@ class 선 implements 도형
 
 	@Override
 	public void draw() {
-		System.out.println(COLOR+"을 이용해서 선을 그린다");
+		System.out.println(COLOR+"을 이용해서 사각형을 그린다");
+		
 	}
 	
 }
