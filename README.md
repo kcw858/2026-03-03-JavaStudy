@@ -1,10 +1,8 @@
 # 이것이 자바다 3판 study
 ## 2026-03-03
-  <details>
-  <summary>+ Chpater01_자바시작</summary>
+  + Chpater01_자바시작
     - 자바 구동과 시작
     - 글자 출력해보기
-  </details>
   + Chapter02_변수_데이터형
     - 변수선언과 데이터형
     - 데이터형의 범위와 연산처리
