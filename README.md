@@ -192,7 +192,7 @@
   +  Chapter18_입출력(Buffered)
     - FileInputStream / FileOutputStream => 1byte
     - FileReader / FileWriter => 2byte
-    - ObjectInputStream / ObjectOutputStream => 객체 단위 저장
+    - ObjectInputStream / ObjectOutputStream => 객체 단위 저장 
 ## 2026-04-09
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter18_입출력(Files)
     - Files 라이브러리 사용법 
