@@ -11,10 +11,17 @@
     - 데이터형의 범위와 연산처리
 
 </details>
+
+<details>
+<summary>2026-03-04</summary>
+  
 ## 2026-03-04
   + Chapter03_연산자
     - 단항,이항,삼항 연산자 연습
     - 연산자의 종류와 형변환
+
+</details>
+
 ## 2026-03-05
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter04_제어문
     - 제어문의 종류
