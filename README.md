@@ -67,15 +67,20 @@
 
 </details>
 
-
-
-
-
+<details>
+<summary>2026-03-12</summary>
+  
 ## 2026-03-12
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter05_데이터관리(배열)
     - 배열의 정의와 필요성
     - 배열 선언, 초기화, 복사
     - 달력 만들기
+
+</details>
+
+<details>
+<summary>2026-03-13</summary>
+  
 ## 2026-03-13
   + Chapter05_데이터관리(배열)_1
     - 선택정렬
@@ -86,6 +91,12 @@
     - 달력만들기
     - 파일 데이터 읽기
     - 배열 정리
+
+</details>
+
+<details>
+<summary>2026-03-16</summary>
+  
 ## 2026-03-16
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter05_명령문관리(메소드)
     - 메소드 선언위치
@@ -93,6 +104,12 @@
   + Chapter05_명령문관리(메소드)_1
     - 메소드 재사용
     - 메소드 정리
+
+</details>
+
+<details>
+<summary>2026-03-17</summary>
+  
 ## 2026-03-17
   + Chapter05_명령문관리(메소드)_2
     - 메소드의 이해
@@ -101,6 +118,12 @@
   + Chapter05_문자열배열
     - 문자열 배열 사용
     - 메소드 분리
+
+</details>
+
+<details>
+<summary>2026-03-18</summary>
+  
 ## 2026-03-18
   + Chapter06_객체지향프로그램(개념-변수종류)
     - 객체지향프로그램 개념
@@ -111,6 +134,12 @@
     - 영화 파일을 읽어 활용
     - 클래스 구조
     - 사용자 정의 클래스
+
+</details>
+
+<details>
+<summary>2026-03-19</summary>
+  
 ## 2026-03-19
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter06_객체지향프로그램(메소드)
     - 메소드 역할
@@ -122,9 +151,21 @@
     - 생성자의 정의, 선언
     - 생성자 오버로딩
     - 생성자 호출 
+
+</details>
+
+<details>
+<summary>2026-03-20</summary>
+  
 ## 2026-03-20
   + Chapter06_객체지향프로그램(접근지정어-제어자)
     - 접근지정어에 따른 접근범위
+
+</details>
+
+<details>
+<summary>2026-03-23</summary>
+  
 ## 2026-03-23
   + Chapter07_객체지향프로그램(재사용)
     - 객체지향 설계
@@ -133,6 +174,12 @@
   + Chapter07_객체지향프로그램(상속_재정의)
     - 상속받기, 상속의 특징
     - 오버라이딩
+
+</details>
+
+<details>
+<summary>2026-03-24</summary>
+  
 ## 2026-03-24
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter07_객체지향프로그램(다형성)
     - 다형성
@@ -141,6 +188,12 @@
     - 객체의 형변환
     - 추상클래스 형식
     - -추상클래스 구성요소 및 특징
+
+</details>
+
+<details>
+<summary>2026-03-25</summary>
+  
 ## 2026-03-25
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter08_인터페이스
     - 인터페이스 기능
@@ -152,10 +205,22 @@
     - 예외처리의 종류
     - 예외처리의 상속 과정
     - try-catch 사용 
+
+</details>
+
+<details>
+<summary>2026-03-26</summary>
+  
 ## 2026-03-26
   + Chapter11_예외처리_1
     - 인터페이스 응용- 게임 만들기 
     - 예외처리 정리
+
+</details>
+
+<details>
+<summary>2026-03-27</summary>
+  
 ## 2026-03-27
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter11_에외처리(간접처리)
     - try-with-resourc
@@ -166,16 +231,34 @@
     - 사용자 정의 예외처리
   + Chapter11_예외처리(응용)
     - 파일을 읽어 맛집 검색 프로그램 구현
+
+</details>
+
+<details>
+<summary>2026-03-30</summary>
+  
 ## 2026-03-30
   + Chapter12_라이브러리(java.lang)
     - java.lang 라이브러리 클래스 사용
     - JFrame을 이용해 윈도우 화면 구현
+
+</details>
+
+<details>
+<summary>2026-03-31</summary>
+  
 ## 2026-03-31
   + Chapter12_라이브러리(java.lang)_1
     - String / StringBuffer / StringBuilder 차이점 및 사용법 
     - Wrapper / Math / System 응용
    + Chapter12_라이브러리(java.lang)_2
     - 정규표현식 사용법
+
+</details>
+
+<details>
+<summary>2026-04-01</summary>
+  
 ## 2026-04-01
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter12_라이브러리(리플렉션-어노테이션-정규식)
     - 정규식
@@ -187,6 +270,12 @@
     - 어노테이션
     - 구문 / 저장기간 / 배치
     - TYPE / METHOD / CONSTRUCTOR / FIELD
+
+</details>
+
+<details>
+<summary>2026-04-02</summary>
+  
 ## 2026-04-02
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter13_15_제네릭_컬렉션(List)
     - Collection의 정의와 종류
@@ -194,10 +283,15 @@
     - List계열 사용법
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter13_15_컬렉션프레임워크(List)
     - ArrayList, LinkedList, Vector의 함수 사용법
+
+</details>
+
+<details>
+<summary>2026-04-06</summary>
+  
 ## 2026-04-06
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter13_15_제네릭_컬렉션(List)
     - Set, Map의 특징과 함수 사용법
-## 2026-04-06
   + Chapter16_람다
     - Collecton의 Iterator / ListIterator
     - 람다식의 사용법과 장점
@@ -209,6 +303,12 @@
     - 중간연산 filter() / map() / sorted()
     - 최종연산 forEach / collect / count
     - 파일을 읽어 스트림으로 출력
+    - 
+</details>
+
+<details>
+<summary>2026-04-07</summary>
+  
 ## 2026-04-07
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter18_입출력(IO)_1
     - 파일을 읽어 VO,DAO,SEVICE,USER로 나눠 스트림으로 프로그램 만들어보기
@@ -229,11 +329,23 @@
     -	파일 생성: createNewFile()
     -	파일 삭제: delete()
     -	파일 존재 여부: exists()
+      
+</details>
+
+<details>
+<summary>2026-04-08</summary>
+  
 ## 2026-04-08
   + Chapter18_입출력(Buffered)
     - FileInputStream / FileOutputStream => 1byte
     - FileReader / FileWriter => 2byte
     - ObjectInputStream / ObjectOutputStream => 객체 단위 저장
+      
+</details>
+
+<details>
+<summary>2026-04-09</summary>
+  
 ## 2026-04-09
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter18_입출력(Files)
     - Files 라이브러리 사용법 
@@ -253,6 +365,14 @@
     - URL / URI
     - URI uri = new URI("주소"); URL url = uri.toURL(); -> 검증된 결과를 불러오는 최신 라이브러리
     - URL로 사이트 연결 구현 
+      
+</details>
+
+<details>
+<summary>2026-04-10</summary>
+  
 ## 2026-04-10
   + Chapter19_네트워크(TCP)
     - Thread를 사용해 서버, 클라이언트의 TCP통신 흐름을 알아보기 위해 socket을 사용하여 채팅프로그램 구현 
+      
+</details>
