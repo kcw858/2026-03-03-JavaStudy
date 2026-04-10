@@ -22,10 +22,20 @@
 
 </details>
 
+<details>
+<summary>2026-03-05</summary>
+  
 ## 2026-03-05
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter04_제어문
     - 제어문의 종류
     - 선택문,선택조건문,단일조건문,다중조건문
+
+</details>
+
+
+<details>
+<summary>2026-03-09</summary>
+  
 ## 2026-03-09
   + Chapter04_제어문_(다중조건문-선택문)
     - if-else문
@@ -33,15 +43,34 @@
     - switch-case 람다식
   + Chapter04_제어문_(다중조건문-선택문)
     - break, continue 반복제어문
+
+</details>
+
+<details>
+<summary>2026-03-10</summary>
+  
 ## 2026-03-10
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter04_제어문_반복문(while-do-while)
     - while문과 do-while문 
   + Chapter04_제어문_반복문
     - 제어문과 반복문 문제풀이
+
+</details>
+
+<details>
+<summary>2026-03-11</summary>
+  
 ## 2026-03-11
   + Chapter04_제어문_중첩반복문
     - 이중 for문
-    - 별찍기와 구구
+    - 별찍기와 구구단 출력 
+
+</details>
+
+
+
+
+
 ## 2026-03-12
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter05_데이터관리(배열)
     - 배열의 정의와 필요성
