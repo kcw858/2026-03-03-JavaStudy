@@ -1,6 +1,6 @@
 # 이것이 자바다 3판 study
 <details>
-<summary>2026-03-03</summary>
+<summary>2026-03-03 (변수 / 데이터형)</summary>
   
 ## 2026-03-03
   + Chpater01_자바시작
@@ -13,7 +13,7 @@
 </details>
 
 <details>
-<summary>2026-03-04</summary>
+<summary>2026-03-04 (자바 연산자)</summary>
   
 ## 2026-03-04
   + Chapter03_연산자
@@ -23,7 +23,7 @@
 </details>
 
 <details>
-<summary>2026-03-05</summary>
+<summary>2026-03-05 (제어문)</summary>
   
 ## 2026-03-05
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter04_제어문
@@ -34,7 +34,7 @@
 
 
 <details>
-<summary>2026-03-09</summary>
+<summary>2026-03-09 (다중조건문-선택문)</summary>
   
 ## 2026-03-09
   + Chapter04_제어문_(다중조건문-선택문)
@@ -47,7 +47,7 @@
 </details>
 
 <details>
-<summary>2026-03-10</summary>
+<summary>2026-03-10 (제어문_반복문)</summary>
   
 ## 2026-03-10
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter04_제어문_반복문(while-do-while)
@@ -58,7 +58,7 @@
 </details>
 
 <details>
-<summary>2026-03-11</summary>
+<summary>2026-03-11 (제어문_중첩반복문)</summary>
   
 ## 2026-03-11
   + Chapter04_제어문_중첩반복문
@@ -68,7 +68,7 @@
 </details>
 
 <details>
-<summary>2026-03-12</summary>
+<summary>2026-03-12 (배열)</summary>
   
 ## 2026-03-12
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter05_데이터관리(배열)
@@ -79,7 +79,7 @@
 </details>
 
 <details>
-<summary>2026-03-13</summary>
+<summary>2026-03-13 (배열)</summary>
   
 ## 2026-03-13
   + Chapter05_데이터관리(배열)_1
@@ -95,7 +95,7 @@
 </details>
 
 <details>
-<summary>2026-03-16</summary>
+<summary>2026-03-16 (메소드)</summary>
   
 ## 2026-03-16
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter05_명령문관리(메소드)
@@ -108,7 +108,7 @@
 </details>
 
 <details>
-<summary>2026-03-17</summary>
+<summary>2026-03-17 (메소드_문자열 배열)</summary>
   
 ## 2026-03-17
   + Chapter05_명령문관리(메소드)_2
@@ -122,7 +122,7 @@
 </details>
 
 <details>
-<summary>2026-03-18</summary>
+<summary>2026-03-18 (객체지향프로그램)</summary>
   
 ## 2026-03-18
   + Chapter06_객체지향프로그램(개념-변수종류)
@@ -138,7 +138,7 @@
 </details>
 
 <details>
-<summary>2026-03-19</summary>
+<summary>2026-03-19 (객체지향프로그램_메소드)</summary>
   
 ## 2026-03-19
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter06_객체지향프로그램(메소드)
@@ -155,7 +155,7 @@
 </details>
 
 <details>
-<summary>2026-03-20</summary>
+<summary>2026-03-20 (객체지향프로그램_접근지정어)</summary>
   
 ## 2026-03-20
   + Chapter06_객체지향프로그램(접근지정어-제어자)
@@ -164,7 +164,7 @@
 </details>
 
 <details>
-<summary>2026-03-23</summary>
+<summary>2026-03-23 (객체지향프로그램_상속)</summary>
   
 ## 2026-03-23
   + Chapter07_객체지향프로그램(재사용)
@@ -178,7 +178,7 @@
 </details>
 
 <details>
-<summary>2026-03-24</summary>
+<summary>2026-03-24 (객체지향프로그램_추상클래스)</summary>
   
 ## 2026-03-24
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter07_객체지향프로그램(다형성)
@@ -192,7 +192,7 @@
 </details>
 
 <details>
-<summary>2026-03-25</summary>
+<summary>2026-03-25 (인터페이스)</summary>
   
 ## 2026-03-25
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter08_인터페이스
@@ -209,7 +209,7 @@
 </details>
 
 <details>
-<summary>2026-03-26</summary>
+<summary>2026-03-26 (예외처리)</summary>
   
 ## 2026-03-26
   + Chapter11_예외처리_1
@@ -219,7 +219,7 @@
 </details>
 
 <details>
-<summary>2026-03-27</summary>
+<summary>2026-03-27 (예외처리_간접처리)</summary>
   
 ## 2026-03-27
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter11_에외처리(간접처리)
@@ -235,7 +235,7 @@
 </details>
 
 <details>
-<summary>2026-03-30</summary>
+<summary>2026-03-30 (자바 라이브러리_java.lang)</summary>
   
 ## 2026-03-30
   + Chapter12_라이브러리(java.lang)
@@ -245,7 +245,7 @@
 </details>
 
 <details>
-<summary>2026-03-31</summary>
+<summary>2026-03-31 (자바 라이브러리_java.lang)</summary>
   
 ## 2026-03-31
   + Chapter12_라이브러리(java.lang)_1
@@ -257,7 +257,7 @@
 </details>
 
 <details>
-<summary>2026-04-01</summary>
+<summary>2026-04-01 (리플렉션-어노테이션-정규식)</summary>
   
 ## 2026-04-01
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter12_라이브러리(리플렉션-어노테이션-정규식)
@@ -274,7 +274,7 @@
 </details>
 
 <details>
-<summary>2026-04-02</summary>
+<summary>2026-04-02 (제네릭_컬렉션)</summary>
   
 ## 2026-04-02
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter13_15_제네릭_컬렉션(List)
@@ -287,7 +287,7 @@
 </details>
 
 <details>
-<summary>2026-04-06</summary>
+<summary>2026-04-06 (람다스트림)</summary>
   
 ## 2026-04-06
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter13_15_제네릭_컬렉션(List)
@@ -307,7 +307,7 @@
 </details>
 
 <details>
-<summary>2026-04-07</summary>
+<summary>2026-04-07 (입출력_IO)</summary>
   
 ## 2026-04-07
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter18_입출력(IO)_1
@@ -333,7 +333,7 @@
 </details>
 
 <details>
-<summary>2026-04-08</summary>
+<summary>2026-04-08 (입출력_Buffered)</summary>
   
 ## 2026-04-08
   + Chapter18_입출력(Buffered)
@@ -344,7 +344,7 @@
 </details>
 
 <details>
-<summary>2026-04-09</summary>
+<summary>2026-04-09 (입출력_Files)</summary>
   
 ## 2026-04-09
   + <img src="https://github.com/kcw858/2026-03-03-JavaStudy/blob/master/중요표시.png" width="18" height="18"/> Chapter18_입출력(Files)
@@ -369,7 +369,7 @@
 </details>
 
 <details>
-<summary>2026-04-10</summary>
+<summary>2026-04-10 (네트워크_TCP)</summary>
   
 ## 2026-04-10
   + Chapter19_네트워크(TCP)
