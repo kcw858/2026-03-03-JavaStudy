@@ -1,4 +1,9 @@
 # 이것이 자바다 3판 study
+<details>
+<summary>접기/펼치기</summary> 
+# ㄴㅇㄴㅇ
+</details>
+
 ## 2026-03-03
   + Chpater01_자바시작
     - 자바 구동과 시작
@@ -212,4 +217,6 @@
     - URL / URI
     - URI uri = new URI("주소"); URL url = uri.toURL(); -> 검증된 결과를 불러오는 최신 라이브러리
     - URL로 사이트 연결 구현 
-    
+## 2026-04-10
+  + Chapter19_네트워크(TCP)
+    - Thread를 사용해 서버, 클라이언트의 TCP통신 흐름을 알아보기 위해 socket을 사용하여 채팅프로그램 구현 
